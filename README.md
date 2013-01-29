@@ -4,7 +4,7 @@ Tools to complement Flash's Telemetry feature.
 
 ## add-opt-in.py
 
-Adds the EnableTelemetry tag to a SWF file for use with Adobe "Monocle".
+Adds the EnableTelemetry tag to a SWF file for use with Adobe Scout.
 
 Run this script on your SWF to make it generate advanced telemetry, which is
 needed for the ActionScript Sampler, Stage3D Recording, and other features.
@@ -22,4 +22,4 @@ application with the -advanced-telemetry option.
         ./add-opt-in.py swf_file [password]
 
 If password is provided, advanced telemetry will only be visible if a matching 
-password is entered in Monocle. 
+password is entered in Adobe Scout. 
